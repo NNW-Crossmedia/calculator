@@ -20,12 +20,14 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:environmentPreference" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:checkInstallation" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="662f4f65-031e-4cf6-a053-f8a440d34f89" name="Default Changelist" comment="[add].ideaファイルの追加" />
+    <list default="true" id="662f4f65-031e-4cf6-a053-f8a440d34f89" name="Default Changelist" comment="[add].ideaファイルの追加">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +43,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="checkInstallation" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -139,7 +141,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="environmentPreference" />
+                        <option value="checkInstallation" />
                       </list>
                     </value>
                   </entry>
@@ -164,6 +166,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="277" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1596002572215" />
+    <state x="104" y="100" width="1716" height="841" key="DiffContextDialog" timestamp="1596086364773">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="104" y="100" width="1716" height="841" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596086364773" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1595833018873">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -172,30 +178,43 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="452" y="231" key="Github.CreatePullRequestDialog/0.0.1366.728@0.0.1366.728" timestamp="1595835703423" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1595840263991">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="928" height="279" key="GridCell.Tab.0.bottom" timestamp="1596088540960">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595840263991" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1595840263991">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="928" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596088540960" />
+    <state width="928" height="279" key="GridCell.Tab.0.center" timestamp="1596088540960">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595840263991" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1595840263991">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="928" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596088540960" />
+    <state width="928" height="279" key="GridCell.Tab.0.left" timestamp="1596088540960">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595840263991" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1595840263991">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="928" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596088540960" />
+    <state width="928" height="279" key="GridCell.Tab.0.right" timestamp="1596088540960">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595840263991" />
+    <state width="928" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596088540960" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1595835457464">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595835457464" />
-    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1595835320563">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="129" y="131" width="1662" height="778" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596086831927">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1595835320563" />
+    <state x="129" y="131" width="1662" height="778" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596086831927" />
+    <state x="771" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596086120484">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="771" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596086120484" />
+    <state x="727" y="308" key="git4idea.merge.GitMergeDialog" timestamp="1596086587025">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="727" y="308" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596086587025" />
     <state x="143" y="0" key="new project wizard" timestamp="1595833223153">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
